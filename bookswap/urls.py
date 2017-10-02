@@ -20,4 +20,6 @@ from bookswap import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', views.index, name='index'),
+    url(r'^dashboard', views.dashboard, name='dashboard'),
+    url(r'^library', views.library, name='library'),
 ]
